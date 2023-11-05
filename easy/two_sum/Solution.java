@@ -2,12 +2,15 @@ package easy.two_sum;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.logging.Logger;
 
 public class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i+1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target)
+
+    private static Logger LOGGER = Logger.getLogger(Solution.class.getName());
+    public int[] twoSum(int[] numbers, int target) {
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = i+1; j < numbers.length; j++) {
+                if (numbers[i] + numbers[j] == target)
                     return new int[]{i, j};
             }
         }
@@ -18,6 +21,6 @@ public class Solution {
         Solution solution = new Solution();
         int[] targetArray = solution.twoSum(new int[]{2, 7, 11, 15}, 9);
 
-        System.out.println(Arrays.toString(targetArray));
+        LOGGER.info(Arrays.toString(targetArray));
     }
 }
