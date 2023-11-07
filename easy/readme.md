@@ -14,7 +14,7 @@ in this folder you will find solutions of easy questions
 10. [Time Conversion](https://github.com/vahapgencdal/leetcode/tree/main/easy/time_conversion)
 11. [Two Sum](https://github.com/vahapgencdal/leetcode/tree/main/easy/two_sum)
 12. [Palindrome Number](https://github.com/vahapgencdal/leetcode/tree/main/easy/palindrome_number)
-13. [Roman to Integer](https://github.com/vahapgencdal/leetcode/tree/main/easy/roman_two_integer)
+13. [Roman to Integer](https://github.com/vahapgencdal/leetcode/tree/main/easy/roman_to_integer)
 14. [Longest Common Prefix]()
 15. [Valid Parentheses]()
 16. [Merge Two Sorted Lists]()
